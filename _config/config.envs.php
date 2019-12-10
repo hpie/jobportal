@@ -12,8 +12,8 @@ $__instances['local'] = array(
 	'db_host' => 'localhost',
 	'db_port' => 3306,
 	'db_user' => 'root',
-	'db_password' => 'hpie@edu',
-	'db_name' => 'jobberbase',
+	'db_password' => '',
+	'db_name' => 'jobportal',
 	'db_prefix' => '',
 	// your site's full url
 	'app_url' => 'http://localhost/jobs',
