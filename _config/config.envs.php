@@ -20,7 +20,7 @@ $__instances['local'] = array(
 	// language to use
 	'lang_code' => 'en',
 	// error reporting
-	'ini_error_reporting' => E_ALL,
+	'ini_error_reporting' => E_ERROR,
 	'ini_display_errors' => 'On',
 	// environment setting 1 (use 'local' for localhost/testing OR 'online' for live, production environment)
 	'location' => 'local',
@@ -42,13 +42,12 @@ $__instances['live'] = array(
 	'app_url' => 'http://www.jobs.hpie.in/',
 	// language to use
 	'lang_code' => 'en',
-	'ini_error_reporting' => E_ALL,
+	'ini_error_reporting' => E_ERROR,
 	'ini_display_errors' => 'Off',
 	'location' => 'online',
 	'environment' => 'prod',
 	'rewrite_mode' => 'apache_mod_rewrite'
 );
-
 
 // http requests
 if (isset($_SERVER['HTTP_HOST']) && isset($_SERVER['REQUEST_URI']))
